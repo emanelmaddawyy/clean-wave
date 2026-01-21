@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Wave - Professional Cleaning Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600;700&family=Work+Sans:wght@600&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+
+        <!-- Navigation -->
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="assets/images/logo.svg" alt="Clean Wave Logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#pricing">Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="assets/images/dribble.svg" alt="Dribble"></a>
+                    <a href="#" class="social-icon"><img src="assets/images/instagram.svg" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="assets/images/linkedin.svg" alt="LinkedIn"></a>
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="container hero-container">
+            <div class="hero-content row">
+                <div class="col-lg-6 hero-text">
+                    <h1>Professional Cleaning <span class="highlight">Services You Can Trust</span></h1>
+                    <p>Licensed, Insured, and Committed to Your Satisfaction.</p>
+                    <a href="#contact" class="btn btn-primary">
+                        Call Us Now
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Booking Form -->
+                <div class="col-lg-6 booking-form-container">
+                    <h2>Booking Now</h2>
+                    <form class="booking-form" id="bookingForm">
+                        <div class="form-group">
+                            <input type="text" name="username" placeholder="Username" class="form-input active">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Phone Number" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <select name="service" class="form-input form-select">
+                                <option value="">Office, Home, Commercial, Other</option>
+                                <option value="office">Office</option>
+                                <option value="home">Home</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <svg class="select-icon" viewBox="0 0 24 24" fill="none">
+                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="message" placeholder="Message/Details" class="form-input">
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row about-container">
+                <div class="col-lg-6 about-content">
+                <h2><span class="dark">About Clean Wave</span> - Your Trusted Cleaning Partner</h2>
+                <div class="about-text">
+                    <p><strong class="highlight">Clean Wave</strong> is a professional cleaning services company serving residential and commercial clients across the UAE. We're a new company with an experienced team, committed to delivering exceptional cleaning services that improve your quality of life and work environment.</p>
+                    <p>Our approach combines professional expertise, modern equipment, eco-friendly products, and genuine care for our customers. Whether you need regular home cleaning, office maintenance, or specialized deep cleaning services, we deliver consistent quality with every visit.</p>
+                </div>
+                <a href="#contact" class="btn btn-primary">
+                    Call Us Now
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-lg-6 about-images">
+                <div class="image-grid">
+                    <img src="assets/images/about-1.svg" alt="Cleaning service" class="about-img img-1">
+                    <img src="assets/images/about-1.svg" alt="Cleaning service" class="about-img img-2">
+                    <img src="assets/images/about-1.svg" alt="Cleaning service" class="about-img img-3">
+                    <img src="assets/images/about-1.svg" alt="Cleaning service" class="about-img img-4">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our Cleaning <span class="highlight">Services</span></h2>
+                <p>Professional cleaning services for homes, offices, and commercial spaces with guaranteed satisfaction</p>
+            </div>
+            <div class="row services-grid g-4">
+                <!-- Home Cleaning -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/icon-home.svg" alt="Home Cleaning">
+                        </div>
+                        <h3>Home Cleaning</h3>
+                        <p>Reliable home cleaning services that fit your schedule and lifestyle. Our trained professionals provide consistent, quality cleaning you can count on. Enjoy more free time while we handle the cleaning with care and attention to detail.</p>
+                    </div>
+                </div>
+                <!-- Office Cleaning -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/icon-office.svg" alt="Office Cleaning">
+                        </div>
+                        <h3>Office Cleaning</h3>
+                        <p>Professional office cleaning services designed to keep your workplace spotless, healthy, and impressive. We work on your schedule with minimal disruption, delivering consistent quality. From reception areas to conference rooms, restrooms to break rooms.</p>
+                    </div>
+                </div>
+                <!-- Steam Cleaning -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/icon-steam.svg" alt="Steam Cleaning">
+                        </div>
+                        <h3>Steam Cleaning</h3>
+                        <p>Professional steam cleaning that deep cleans and sanitizes without harsh chemicals. Using high-temperature steam technology, we effectively remove dirt, kill bacteria, and eliminate allergens from carpets, upholstery, tile, and more.</p>
+                    </div>
+                </div>
+                <!-- Mattress Cleaning -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/icon-mattress.svg" alt="Mattress Cleaning">
+                        </div>
+                        <h3>Mattress Cleaning</h3>
+                        <p>Did you know the average mattress contains millions of dust mites and accumulates pounds of dead skin cells over time? Our professional mattress cleaning service tackles these hidden health hazards that regular cleaning can't reach.</p>
+                    </div>
+                </div>
+                <!-- Carpet Cleaning -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/icon-carpet.svg" alt="Carpet Cleaning">
+                        </div>
+                        <h3>Carpet Cleaning</h3>
+                        <p>Professional carpet cleaning that removes deep-seated dirt, stains, and allergens for a fresher, healthier space. Our powerful extraction methods and expert techniques restore carpet appearance, eliminate odors, and extend carpet life.</p>
+                    </div>
+                </div>
+                <!-- Deep Cleaning -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/icon-deep.svg" alt="Deep Cleaning">
+                        </div>
+                        <h3>Deep Cleaning</h3>
+                        <p>Our comprehensive deep cleaning service goes beyond regular maintenance to tackle every corner of your space. We target built-up dirt, grime, and neglected areas that routine cleaning misses. Perfect for seasonal refreshes, move-ins/move-outs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative circles -->
+        <div class="services-decoration">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our <span class="highlight">Team</span></h2>
+                <p>Meet the dedicated professionals behind Clean Wave who make your spaces shine</p>
+            </div>
+            <div class="row team-grid g-4">
+                <!-- Team Member 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/team-1.jpg" alt="Sarah Johnson">
+                            <div class="team-social">
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Operations Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/team-2.jpg" alt="Michael Chen">
+                            <div class="team-social">
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h4>Michael Chen</h4>
+                            <p>Team Lead</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/team-3.jpg" alt="Emily Rodriguez">
+                            <div class="team-social">
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Senior Cleaner</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/team-4.jpg" alt="David Wilson">
+                            <div class="team-social">
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h4>David Wilson</h4>
+                            <p>Quality Inspector</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us" id="why-us">
+        <div class="why-top-bg"></div>
+        <div class="why-container">
+            <div class="section-header text-center">
+                <h2>Why <span class="highlight">Choose Us</span></h2>
+                <p>We provide top-quality, convenient, reliable, and sustainable cleaning solutions that exceed your expectations.</p>
+            </div>
+
+            <div class="why-content">
+                <!-- Circles Background -->
+                <div class="circles-wrapper">
+                    <div class="circle-dashed circle-outer"></div>
+                    <div class="circle-dashed circle-middle"></div>
+                    <div class="circle-solid"></div>
+                </div>
+
+                <!-- Center Image -->
+                <div class="center-image">
+                    <img src="assets/images/cleaning-person.png" alt="Professional Cleaner">
+                </div>
+
+                <!-- Left Feature Cards -->
+                <div class="feature-card card-left card-experience">
+                    <div class="feature-header">
+                        <span class="feature-title">Experience</span>
+                        <svg class="feature-icon" viewBox="0 0 18 18" fill="currentColor">
+                            <path d="M9 0L11.0206 6.97937L18 9L11.0206 11.0206L9 18L6.97937 11.0206L0 9L6.97937 6.97937L9 0Z"/>
+                        </svg>
+                    </div>
+                    <p>our team has the knowledge and expertise to tackle any cleaning challenge.</p>
+                </div>
+
+                <div class="feature-card card-left card-flexibility">
+                    <div class="feature-header">
+                        <span class="feature-title">Flexibility</span>
+                        <svg class="feature-icon" viewBox="0 0 18 18" fill="currentColor">
+                            <path d="M9 0L11.0206 6.97937L18 9L11.0206 11.0206L9 18L6.97937 11.0206L0 9L6.97937 6.97937L9 0Z"/>
+                        </svg>
+                    </div>
+                    <p>We work around your business hours, including evenings and weekends</p>
+                </div>
+
+                <div class="feature-card card-left card-eco">
+                    <div class="feature-header">
+                        <span class="feature-title">Eco-Friendly Options</span>
+                        <svg class="feature-icon" viewBox="0 0 18 18" fill="currentColor">
+                            <path d="M9 0L11.0206 6.97937L18 9L11.0206 11.0206L9 18L6.97937 11.0206L0 9L6.97937 6.97937L9 0Z"/>
+                        </svg>
+                    </div>
+                    <p>Green cleaning products available that are safe for employees and the environment</p>
+                </div>
+
+                <!-- Right Feature Cards -->
+                <div class="feature-card card-right card-quality">
+                    <div class="feature-header">
+                        <svg class="feature-icon" viewBox="0 0 18 18" fill="currentColor">
+                            <path d="M9 0L11.0206 6.97937L18 9L11.0206 11.0206L9 18L6.97937 11.0206L0 9L6.97937 6.97937L9 0Z"/>
+                        </svg>
+                        <span class="feature-title">Quality</span>
+                    </div>
+                    <p>We are committed to providing high-quality cleaning services that exceed your expectations.</p>
+                </div>
+
+                <div class="feature-card card-right card-satisfaction">
+                    <div class="feature-header">
+                        <svg class="feature-icon" viewBox="0 0 18 18" fill="currentColor">
+                            <path d="M9 0L11.0206 6.97937L18 9L11.0206 11.0206L9 18L6.97937 11.0206L0 9L6.97937 6.97937L9 0Z"/>
+                        </svg>
+                        <span class="feature-title">Satisfaction</span>
+                    </div>
+                    <p>We strive to ensure your complete satisfaction with every visit.</p>
+                </div>
+
+                <div class="feature-card card-right card-disruption">
+                    <div class="feature-header">
+                        <svg class="feature-icon" viewBox="0 0 18 18" fill="currentColor">
+                            <path d="M9 0L11.0206 6.97937L18 9L11.0206 11.0206L9 18L6.97937 11.0206L0 9L6.97937 6.97937L9 0Z"/>
+                        </svg>
+                        <span class="feature-title">Minimal Disruption</span>
+                    </div>
+                    <p>We work efficiently and quietly to avoid interrupting your operation.</p>
+                </div>
+
+                <!-- Call Us Button -->
+                <a href="#contact" class="btn btn-primary why-btn">
+                    Call Us Now
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="why-bottom-bg"></div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="pricing-background"></div>
+        <div class="container pricing-container">
+            <div class="section-header light">
+                <h2>Choose From Our Lowest Plans and Prices</h2>
+            </div>
+
+            <div class="pricing-toggle">
+                <button class="toggle-btn active" data-plan="monthly">Monthly</button>
+                <button class="toggle-btn" data-plan="onetime">One time</button>
+            </div>
+
+            <div class="row pricing-cards justify-content-center g-4">
+                <!-- Basic Package -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <h3>Basic Package</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="amount">59.00</span>
+                            <span class="period">/Monthly</span>
+                        </div>
+                        <ul class="features-list">
+                            <li>Dusting of all surfaces</li>
+                            <li>Sweeping and mopping floors</li>
+                            <li>Vacuuming carpets and rugs</li>
+                            <li>Cleaning of kitchen surfaces</li>
+                            <li>Cleaning of bathroom surfaces</li>
+                            <li>Emptying trash bins</li>
+                        </ul>
+                        <button class="btn btn-outline">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Enterprise Package -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card featured">
+                        <h3>Enterprise Package</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="amount">69.00</span>
+                            <span class="period">/Monthly</span>
+                        </div>
+                        <ul class="features-list">
+                            <li>All services in the Basic Plan</li>
+                            <li>Detailed dusting</li>
+                            <li>Wiping down of kitchen appt</li>
+                            <li>Cleaning inside the microwave</li>
+                            <li>Changing bed linens</li>
+                            <li>Spot cleaning walls and doors</li>
+                        </ul>
+                        <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <h3>Premium Package</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="amount">99.00</span>
+                            <span class="period">/Monthly</span>
+                        </div>
+                        <ul class="features-list">
+                            <li>All services in the Clean Plan</li>
+                            <li>Deep cleaning of kitchen appt</li>
+                            <li>baseboards, door frames, & vents</li>
+                            <li>Organization of closets pantries</li>
+                            <li>Carpet, upholstery spot cleaning</li>
+                            <li>Detailed bathroom cleaning</li>
+                        </ul>
+                        <button class="btn btn-outline">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.svg" alt="Clean Wave Logo">
+                </div>
+                <p class="footer-text">Professional cleaning services you can trust.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><img src="assets/images/dribble.svg" alt="Dribble"></a>
+                    <a href="#" class="social-icon"><img src="assets/images/instagram.svg" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="assets/images/linkedin.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Clean Wave. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

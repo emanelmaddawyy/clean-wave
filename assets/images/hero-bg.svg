@@ -1,0 +1,9 @@
+<svg width="1440" height="1095" viewBox="0 0 1440 1095" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1095" fill="#E8F4FC"/>
+  <circle cx="720" cy="400" r="300" fill="#D4E9F7" opacity="0.5"/>
+  <circle cx="200" cy="200" r="150" fill="#D4E9F7" opacity="0.3"/>
+  <circle cx="1200" cy="800" r="200" fill="#D4E9F7" opacity="0.4"/>
+  <circle cx="100" cy="600" r="100" fill="#113065" opacity="0.05"/>
+  <circle cx="1350" cy="300" r="120" fill="#113065" opacity="0.05"/>
+  <circle cx="900" cy="900" r="180" fill="#D4E9F7" opacity="0.3"/>
+</svg>
